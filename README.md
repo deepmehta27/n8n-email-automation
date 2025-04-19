@@ -8,7 +8,7 @@ This n8n workflow pulls pending contacts from **Google Sheets**, sends a person
 2. **Create credentials**
    - *Google Sheets OAuth2* (readonly & write scopes)
    - *Gmail OAuth2* (send scope)
-3. Copy the sample sheet template from `screenshots/CRM_template.png` *(or create your own)*  
+3. Download the sample sheet n8n_automation_test_file.xlsx
 4. **Run** the Manual Trigger – you’ll see rows change from `pending` → `sent`.
 
 ## 🗂️ CRM Used
