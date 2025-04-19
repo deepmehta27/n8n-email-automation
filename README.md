@@ -1,5 +1,4 @@
 # n8n Automated Renewal Reminder
-**Role:** AI Automation Intern • **Company:** ReAgent AI  
 
 ## 📋 Overview
 This n8n workflow pulls pending contacts from **Google Sheets**, sends a personalised renewal‑reminder e‑mail via **Gmail**, and writes back `sent`/`error` status with timestamps (and Gmail `messageId` or `error_message`).
