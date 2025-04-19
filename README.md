@@ -13,3 +13,9 @@ This n8n workflow pulls pending contacts from **Google Sheets**, sends a person
 
 ## 🗂️ CRM Used
 - **Google Sheets** (one tab; headers: `first_name`, `email`, `company`, `last_product_purchased`, `renewal_date`, `email_status`, `last_contacted`, `error_message`).
+
+## 💡 Extra Features (Assumptions)
+- Split‑in‑batches + 1 s Wait → avoids Gmail rate limits  
+- Error branch writes detailed `error_message`  
+- Optional Slack alert on first failure  
+- Cron trigger (commented) for weekday 09:00 UTC
